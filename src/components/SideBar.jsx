@@ -5,8 +5,8 @@ import { SiElasticstack } from "react-icons/si";
 import { FaInbox } from "react-icons/fa";
 import { IoStatsChartSharp } from "react-icons/io5";
 import logo from '../assets/logo.svg';
-import { Home } from "../assets/Subtract.png"
-import { ViewList } from "../assets/view_list.png"
+// import { Home } from "../assets/Subtract.png"
+// import { ViewList } from "../assets/view_list.png"
 
 function SideBar({ onMenuItemClick }) {
     const [selectedItem, setSelectedItem] = useState('/');
@@ -26,7 +26,7 @@ function SideBar({ onMenuItemClick }) {
                     className={`w-7 h-7 cursor-pointer p-1 pt-0.5 pr-0.5 pb-0.5 pl-1 ${selectedItem === '/' ? 'bg-gray-600 rounded-lg' : ''}`}
                     onClick={() => handleMenuItemClick('/')}
                 >
-                    {Home}
+                    <RiHome5Fill />
                 </div>
 
                 <div
@@ -51,7 +51,7 @@ function SideBar({ onMenuItemClick }) {
                     className={`cursor-pointer p-1 ${selectedItem === '/stack' ? 'bg-gray-600 rounded-lg' : ''}`}
                     onClick={() => handleMenuItemClick('/stack')}
                 >
-                    {ViewList}
+                    <SiElasticstack />
                 </div>
                 <div
                     className={`cursor-pointer p-1 ${selectedItem === '/inbox' ? 'bg-gray-600 rounded-lg' : ''}`}
