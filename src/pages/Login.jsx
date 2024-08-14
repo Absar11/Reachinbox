@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import AppBar from "../components/AppBar";
 import google from "../assets/google.svg";
 import Footer from "../components/Footer";
@@ -21,7 +21,7 @@ function Login() {
 
     const handleGoogleLogin = () => {
         // Redirect to Google login URL
-        window.location.href = "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://your-frontend.com";
+        window.location.href = "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reach-inbox-ai-assignment.vercel.app/";
     };
 
     return (

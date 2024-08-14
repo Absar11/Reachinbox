@@ -74,3 +74,9 @@ Open [http://localhost:5173](http://localhost:3000) with your browser to see the
 3. **Reply to Emails**: Use the custom text editor to compose and send replies.
 4. **Switch Theme**: Toggle between light and dark modes using the provided option in the UI.
 
+## Design and API Files
+Design File: https://www.figma.com/file/uECxqvFhEx9dn4ZuO7wqmu/Reachinbox-Assignment?type=design&node-id=0-1
+&mode=design
+API File -
+https://documenter.getpostman.com/view/30630244/2sA2rCTMKr#433eb613-e405-4239-9e2d-f20485b31b27
+
